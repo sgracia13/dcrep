@@ -1,0 +1,9 @@
+from grocerylist import GroceryItem
+class AddingItem:
+    
+    def add_item(self,shopping_list):
+        name = "tomato"
+        return name
+        #price = float(input("Enter product price: "))
+       # quantity = int(input("Enter quantity: "))
+       
