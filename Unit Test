@@ -1,0 +1,14 @@
+import unittest
+
+from additem import AddingItem
+
+class GroceryTests(unittest.TestCase):
+    
+    def setup(self):
+        self.add = AddingItem()
+        print("see me")
+    
+    def test_add_item(self):
+        print("test_add_item")
+        result = self.add.add_item('')
+        self.assertEquals('tomato',result)
